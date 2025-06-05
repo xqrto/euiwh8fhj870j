@@ -1,0 +1,26 @@
+@echo off
+
+if "%1"=="" (
+    goto err
+) else (
+    goto nxt
+)
+:nxt
+if "%2"=="" (
+    goto err
+) else (
+    goto CW
+)
+:err
+echo CWrite [text] [color]
+echo color:
+echo red
+echo blue
+echo green
+echo yellow
+echo ...
+goto end
+:CW
+Powershell Write-Host '%1' -fo '%2'; & goto end
+:end
+
