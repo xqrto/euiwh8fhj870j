@@ -1,0 +1,53 @@
+@echo off
+setlocal enabledelayedexpansion
+
+:: Check if file path was given
+if "%~1"=="" (
+    echo [Fehler] Bitte gib einen Dateipfad als Argument an.
+    echo Nutzung: force_del.bat "C:\Pfad\zur\Datei.txt"
+    exit /b 1
+)
+
+set "target=%~1"
+
+echo [*] target: "%target%"
+
+:: Existiert die Datei?
+if not exist "%target%" (
+    echo [!] Datei existiert nicht.
+    exit /b 1
+)
+
+:: Eigentümer übernehmen
+echo [+] Kill file
+takeown /f "%target%" >nul 2>&1
+
+:: Rechte setzen
+echo [+] take full access
+icacls "%target%" /grant "%USERNAME%:F" /T /C >nul 2>&1
+
+:: Schreibschutz entfernen
+echo [+] Remove write protection...
+attrib -R -S -H "%target%" >nul 2>&1
+
+:: Löschen versuchen
+echo [+] delete
+del /F /Q "%target%" >nul 2>&1
+
+:: Prüfen ob noch existiert
+if exist "%target%" (
+    echo [!] File could not be deleted.
+    echo [!] Starting final deletion attempt...
+    takeown /f "%target%" >nul 2>&1
+    icacls "%target%" /grant "%USERNAME%:F" /T /C >nul 2>&1
+    attrib -R -S -H "%target%" >nul 2>&1
+    del /F /Q "%target%" >nul 2>&1
+
+    if exist "%target%" (
+        echo [X] File is deletable. Access denied or locked by process.
+        exit /b 2
+    )
+)
+
+echo [✓] File deleted successfully.
+exit /b 0
