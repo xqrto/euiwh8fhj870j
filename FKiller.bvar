@@ -3,8 +3,8 @@ setlocal enabledelayedexpansion
 
 :: Check if file path was given
 if "%~1"=="" (
-    echo [Fehler] Bitte gib einen Dateipfad als Argument an.
-    echo Nutzung: force_del.bat "C:\Pfad\zur\Datei.txt"
+    echo [Error] Please specify a file path as an argument.
+    echo Usage: FKiller "C:\Pfad\zur\Datei.txt"
     exit /b 1
 )
 
