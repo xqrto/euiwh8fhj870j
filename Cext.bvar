@@ -1,0 +1,12 @@
+@echo off
+if "%~1"=="" goto help
+ren %1 %~n1.%2
+goto end
+
+:help
+echo Cext:
+echo    usage:
+echo        cext C:\path\to\file.txt bat
+goto end
+
+:end
