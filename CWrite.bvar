@@ -1,4 +1,3 @@
 @echo off
 Powershell Write-Host '%1' -fo '%2'; & goto end
-
 :end
