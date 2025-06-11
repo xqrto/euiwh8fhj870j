@@ -1,3 +1,6 @@
+# Grow a Garden - seeds.txt
+
+# Samen (Seeds)
 SEEDS:
   - "Carrot"
   - "Tomato"
@@ -10,7 +13,23 @@ SEEDS:
   - "Coconut"
   - "Cactus"
   - "Dragon Fruit"
+  - "Corn"
+  - "Lavender"
+  - "Manuka Flower"
+  - "Rose"
+  - "Orange Tulip"
+  - "Dandelion"
+  - "Nectarshade"
+  - "Pear"
+  - "Honey Comb"
+  - "Flower Seed Pack"
+  - "Nectarine Seed"
+  - "Hive Fruit Seed"
+  - "Moon Melon Seed"
+  - "Blood Banana Seed"
+  - "Night Seed Pack"
 
+# Werkzeuge (Gear)
 GEAR:
   - "Watering Can"
   - "Basic Sprinkler"
@@ -22,7 +41,16 @@ GEAR:
   - "Pollen Radar"
   - "Nectar Staff"
   - "Star Caller"
+  - "Trowel"
+  - "Favorite Tool"
+  - "Honey Torch"
+  - "Shovel Grave"
+  - "Axe Stump"
+  - "Bamboo Wind Chime"
+  - "Wood Pile"
+  - "Bookshelf"
 
+# Kosmetische Items (Cosmetics)
 COSMETICS:
   - "Crazy Gnome"
   - "Silly Gnome"
@@ -63,15 +91,29 @@ COSMETICS:
   - "Golden Arbour"
   - "Golden Candy Blossom Statue"
   - "Platinum Candy Blossom Statue"
+  - "Sign Crate"
+  - "Common Gnome Crate"
+  - "Small Stone Pad"
+  - "Viney Beam"
 
+# Eier (Eggs)
 EGGS:
   - "Night Egg"
   - "Blood Egg"
   - "Moon Egg"
   - "Mysterious Crate"
+  - "Uncommon Egg"
+  - "Common Egg"
 
+# Saisonale Items (Event Items)
 EVENT_ITEMS:
   - "Night Seed Pack"
   - "Blood Banana Seed"
   - "Moon Melon Seed"
   - "Mysterious Crate"
+  - "Star Caller"
+  - "Blood Kiwi"
+  - "Blood Hedgehog"
+  - "Blood Owl"
+  - "Bee Crate"
+  - "Honey Comb"
