@@ -1,0 +1,1 @@
+"Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Tomato", "Daffodil", "Corn", "Watermelon", "Pumpkin", "Apple", "Bamboo", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Mushroom", "Grape", "Pepper Seed", "Cacao", "Beanstalk", "Ember Lily"
