@@ -1,1 +1,84 @@
-"Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Tomato", "Daffodil", "Corn", "Watermelon", "Pumpkin", "Apple", "Bamboo", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Mushroom", "Grape", "Pepper Seed", "Cacao", "Beanstalk", "Ember Lily"
+# Grow a Garden - seeds.txt
+
+# Samen (Seeds)
+SEEDS:
+  - "Carrot"
+  - "Tomato"
+  - "Strawberry"
+  - "Blueberry"
+  - "Watermelon"
+  - "Pumpkin"
+  - "Apple"
+  - "Bamboo"
+  - "Coconut"
+  - "Cactus"
+  - "Dragon Fruit"
+
+# Werkzeuge (Gear)
+GEAR:
+  - "Watering Can"
+  - "Basic Sprinkler"
+  - "Advanced Sprinkler"
+  - "Godly Sprinkler"
+  - "Recall Wrench"
+  - "Harvest Tool"
+  - "Honey Sprinkler"
+  - "Pollen Radar"
+  - "Nectar Staff"
+  - "Star Caller"
+
+# Kosmetische Items (Cosmetics)
+COSMETICS:
+  - "Crazy Gnome"
+  - "Silly Gnome"
+  - "Sleepy Gnome"
+  - "Grumpy Gnome"
+  - "Fearless Gnome"
+  - "Eloise Gnome"
+  - "Sam Gnome"
+  - "Raphael Gnome"
+  - "Steven Gnome"
+  - "Cleetus Gnome"
+  - "Bacon Gnome"
+  - "Zombie Gnome"
+  - "Builderman Gnome"
+  - "Noob Gnome"
+  - "Gold Gnome"
+  - "Blue Flag"
+  - "Red Flag"
+  - "Swing Set"
+  - "Seesaw"
+  - "Roundabout"
+  - "Trampoline"
+  - "Female Scarecrow"
+  - "Male Scarecrow"
+  - "Mossy Stone Blossom Statue"
+  - "Stone Mango Statue"
+  - "Stone Candy Blossom Statue"
+  - "Honey Pot"
+  - "Beehive"
+  - "Honey Barrel"
+  - "Honey Pillar"
+  - "Bee Podium"
+  - "Honey Fountain"
+  - "Rabbit Fountain"
+  - "Gold Pillar"
+  - "Gold Campfire"
+  - "Gold Fountain"
+  - "Golden Arbour"
+  - "Golden Candy Blossom Statue"
+  - "Platinum Candy Blossom Statue"
+
+# Eier (Eggs)
+EGGS:
+  - "Night Egg"
+  - "Blood Egg"
+  - "Moon Egg"
+  - "Mysterious Crate"
+
+# Saisonale Items (Event Items)
+EVENT_ITEMS:
+  - "Night Seed Pack"
+  - "Blood Banana Seed"
+  - "Moon Melon Seed"
+  - "Mysterious Crate"
