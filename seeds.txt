@@ -1,6 +1,3 @@
-# Grow a Garden - seeds.txt
-
-# Samen (Seeds)
 SEEDS:
   - "Carrot"
   - "Tomato"
